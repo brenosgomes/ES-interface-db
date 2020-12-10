@@ -7,8 +7,8 @@ exports.up = function(knex) {
         table.text("programa_programaO", "longtext").notNull();
         table.string("programa_casoTeste", "200").notNull();    
         table.string("programa_ateO", "100").notNull();
-        table.string("programa_arestas", "200").nuabble();
-        table.string("programa_nodo", "200").nuabble();
+        table.string("programa_arestas", "200").nullable();
+        table.string("programa_nodo", "200").nullable();
         table.string("programa_caminho", "200").notNull();
     })
 };
