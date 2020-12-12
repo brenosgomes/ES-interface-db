@@ -1,4 +1,4 @@
-
+//Cria tabela "projeto" no bd
 exports.up = function(knex) {
     return knex.schema.createTable("projeto", table => {
         table.increments("projeto_id").primary();
